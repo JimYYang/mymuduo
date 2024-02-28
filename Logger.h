@@ -3,6 +3,7 @@
 #include <string>
 
 #include "noncopyable.h"
+#include "Timestamp.h"
 
 // 定义日志的级别 INFO ERROR FATAL DEBUG
 enum LogLevel
