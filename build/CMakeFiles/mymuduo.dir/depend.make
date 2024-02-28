@@ -3,5 +3,9 @@
 
 CMakeFiles/mymuduo.dir/Logger.o: ../Logger.cc
 CMakeFiles/mymuduo.dir/Logger.o: ../Logger.h
+CMakeFiles/mymuduo.dir/Logger.o: ../Timestamp.h
 CMakeFiles/mymuduo.dir/Logger.o: ../noncopyable.h
+
+CMakeFiles/mymuduo.dir/Timestamp.o: ../Timestamp.cc
+CMakeFiles/mymuduo.dir/Timestamp.o: ../Timestamp.h
 

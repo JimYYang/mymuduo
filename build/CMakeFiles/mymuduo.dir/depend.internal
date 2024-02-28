@@ -4,4 +4,8 @@
 CMakeFiles/mymuduo.dir/Logger.o
  /home/learn/proj/mymuduo/Logger.cc
  /home/learn/proj/mymuduo/Logger.h
+ /home/learn/proj/mymuduo/Timestamp.h
  /home/learn/proj/mymuduo/noncopyable.h
+CMakeFiles/mymuduo.dir/Timestamp.o
+ /home/learn/proj/mymuduo/Timestamp.cc
+ /home/learn/proj/mymuduo/Timestamp.h

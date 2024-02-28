@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/mymuduo.dir/Logger.o"
-  "libmymuduo.pdb"
-  "libmymuduo.so"
+  "CMakeFiles/mymuduo.dir/Timestamp.o"
+  "../lib/libmymuduo.pdb"
+  "../lib/libmymuduo.so"
 )
 
 # Per-language clean rules from dependency scanning.
