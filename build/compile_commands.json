@@ -1,0 +1,52 @@
+[
+{
+  "directory": "/home/learn/proj/mymuduo/build",
+  "command": "/usr/bin/g++  -Dmymuduo_EXPORTS   -g -std=c++11 -g -fPIC   -o CMakeFiles/mymuduo.dir/CUrrentThread.o -c /home/learn/proj/mymuduo/CUrrentThread.cc",
+  "file": "/home/learn/proj/mymuduo/CUrrentThread.cc"
+},
+{
+  "directory": "/home/learn/proj/mymuduo/build",
+  "command": "/usr/bin/g++  -Dmymuduo_EXPORTS   -g -std=c++11 -g -fPIC   -o CMakeFiles/mymuduo.dir/Channel.o -c /home/learn/proj/mymuduo/Channel.cc",
+  "file": "/home/learn/proj/mymuduo/Channel.cc"
+},
+{
+  "directory": "/home/learn/proj/mymuduo/build",
+  "command": "/usr/bin/g++  -Dmymuduo_EXPORTS   -g -std=c++11 -g -fPIC   -o CMakeFiles/mymuduo.dir/DefaultPoller.o -c /home/learn/proj/mymuduo/DefaultPoller.cc",
+  "file": "/home/learn/proj/mymuduo/DefaultPoller.cc"
+},
+{
+  "directory": "/home/learn/proj/mymuduo/build",
+  "command": "/usr/bin/g++  -Dmymuduo_EXPORTS   -g -std=c++11 -g -fPIC   -o CMakeFiles/mymuduo.dir/EPollPoller.o -c /home/learn/proj/mymuduo/EPollPoller.cc",
+  "file": "/home/learn/proj/mymuduo/EPollPoller.cc"
+},
+{
+  "directory": "/home/learn/proj/mymuduo/build",
+  "command": "/usr/bin/g++  -Dmymuduo_EXPORTS   -g -std=c++11 -g -fPIC   -o CMakeFiles/mymuduo.dir/EventLoop.o -c /home/learn/proj/mymuduo/EventLoop.cc",
+  "file": "/home/learn/proj/mymuduo/EventLoop.cc"
+},
+{
+  "directory": "/home/learn/proj/mymuduo/build",
+  "command": "/usr/bin/g++  -Dmymuduo_EXPORTS   -g -std=c++11 -g -fPIC   -o CMakeFiles/mymuduo.dir/InetAddress.o -c /home/learn/proj/mymuduo/InetAddress.cc",
+  "file": "/home/learn/proj/mymuduo/InetAddress.cc"
+},
+{
+  "directory": "/home/learn/proj/mymuduo/build",
+  "command": "/usr/bin/g++  -Dmymuduo_EXPORTS   -g -std=c++11 -g -fPIC   -o CMakeFiles/mymuduo.dir/Logger.o -c /home/learn/proj/mymuduo/Logger.cc",
+  "file": "/home/learn/proj/mymuduo/Logger.cc"
+},
+{
+  "directory": "/home/learn/proj/mymuduo/build",
+  "command": "/usr/bin/g++  -Dmymuduo_EXPORTS   -g -std=c++11 -g -fPIC   -o CMakeFiles/mymuduo.dir/Poller.o -c /home/learn/proj/mymuduo/Poller.cc",
+  "file": "/home/learn/proj/mymuduo/Poller.cc"
+},
+{
+  "directory": "/home/learn/proj/mymuduo/build",
+  "command": "/usr/bin/g++  -Dmymuduo_EXPORTS   -g -std=c++11 -g -fPIC   -o CMakeFiles/mymuduo.dir/TcpServer.o -c /home/learn/proj/mymuduo/TcpServer.cc",
+  "file": "/home/learn/proj/mymuduo/TcpServer.cc"
+},
+{
+  "directory": "/home/learn/proj/mymuduo/build",
+  "command": "/usr/bin/g++  -Dmymuduo_EXPORTS   -g -std=c++11 -g -fPIC   -o CMakeFiles/mymuduo.dir/Timestamp.o -c /home/learn/proj/mymuduo/Timestamp.cc",
+  "file": "/home/learn/proj/mymuduo/Timestamp.cc"
+}
+]
