@@ -1,6 +1,11 @@
 [
 {
   "directory": "/home/learn/proj/mymuduo/build",
+  "command": "/usr/bin/g++  -Dmymuduo_EXPORTS   -g -std=c++11 -g -fPIC   -o CMakeFiles/mymuduo.dir/Acceptor.o -c /home/learn/proj/mymuduo/Acceptor.cc",
+  "file": "/home/learn/proj/mymuduo/Acceptor.cc"
+},
+{
+  "directory": "/home/learn/proj/mymuduo/build",
   "command": "/usr/bin/g++  -Dmymuduo_EXPORTS   -g -std=c++11 -g -fPIC   -o CMakeFiles/mymuduo.dir/CUrrentThread.o -c /home/learn/proj/mymuduo/CUrrentThread.cc",
   "file": "/home/learn/proj/mymuduo/CUrrentThread.cc"
 },
@@ -26,6 +31,16 @@
 },
 {
   "directory": "/home/learn/proj/mymuduo/build",
+  "command": "/usr/bin/g++  -Dmymuduo_EXPORTS   -g -std=c++11 -g -fPIC   -o CMakeFiles/mymuduo.dir/EventLoopThread.o -c /home/learn/proj/mymuduo/EventLoopThread.cc",
+  "file": "/home/learn/proj/mymuduo/EventLoopThread.cc"
+},
+{
+  "directory": "/home/learn/proj/mymuduo/build",
+  "command": "/usr/bin/g++  -Dmymuduo_EXPORTS   -g -std=c++11 -g -fPIC   -o CMakeFiles/mymuduo.dir/EventLoopThreadPool.o -c /home/learn/proj/mymuduo/EventLoopThreadPool.cc",
+  "file": "/home/learn/proj/mymuduo/EventLoopThreadPool.cc"
+},
+{
+  "directory": "/home/learn/proj/mymuduo/build",
   "command": "/usr/bin/g++  -Dmymuduo_EXPORTS   -g -std=c++11 -g -fPIC   -o CMakeFiles/mymuduo.dir/InetAddress.o -c /home/learn/proj/mymuduo/InetAddress.cc",
   "file": "/home/learn/proj/mymuduo/InetAddress.cc"
 },
@@ -38,6 +53,11 @@
   "directory": "/home/learn/proj/mymuduo/build",
   "command": "/usr/bin/g++  -Dmymuduo_EXPORTS   -g -std=c++11 -g -fPIC   -o CMakeFiles/mymuduo.dir/Poller.o -c /home/learn/proj/mymuduo/Poller.cc",
   "file": "/home/learn/proj/mymuduo/Poller.cc"
+},
+{
+  "directory": "/home/learn/proj/mymuduo/build",
+  "command": "/usr/bin/g++  -Dmymuduo_EXPORTS   -g -std=c++11 -g -fPIC   -o CMakeFiles/mymuduo.dir/Socket.o -c /home/learn/proj/mymuduo/Socket.cc",
+  "file": "/home/learn/proj/mymuduo/Socket.cc"
 },
 {
   "directory": "/home/learn/proj/mymuduo/build",
