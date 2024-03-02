@@ -13,6 +13,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/learn/proj/mymuduo/Logger.cc" "/home/learn/proj/mymuduo/build/CMakeFiles/mymuduo.dir/Logger.o"
   "/home/learn/proj/mymuduo/Poller.cc" "/home/learn/proj/mymuduo/build/CMakeFiles/mymuduo.dir/Poller.o"
   "/home/learn/proj/mymuduo/TcpServer.cc" "/home/learn/proj/mymuduo/build/CMakeFiles/mymuduo.dir/TcpServer.o"
+  "/home/learn/proj/mymuduo/Thread.cc" "/home/learn/proj/mymuduo/build/CMakeFiles/mymuduo.dir/Thread.o"
   "/home/learn/proj/mymuduo/Timestamp.cc" "/home/learn/proj/mymuduo/build/CMakeFiles/mymuduo.dir/Timestamp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

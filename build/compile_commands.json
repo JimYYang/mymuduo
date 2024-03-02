@@ -46,6 +46,11 @@
 },
 {
   "directory": "/home/learn/proj/mymuduo/build",
+  "command": "/usr/bin/g++  -Dmymuduo_EXPORTS   -g -std=c++11 -g -fPIC   -o CMakeFiles/mymuduo.dir/Thread.o -c /home/learn/proj/mymuduo/Thread.cc",
+  "file": "/home/learn/proj/mymuduo/Thread.cc"
+},
+{
+  "directory": "/home/learn/proj/mymuduo/build",
   "command": "/usr/bin/g++  -Dmymuduo_EXPORTS   -g -std=c++11 -g -fPIC   -o CMakeFiles/mymuduo.dir/Timestamp.o -c /home/learn/proj/mymuduo/Timestamp.cc",
   "file": "/home/learn/proj/mymuduo/Timestamp.cc"
 }
