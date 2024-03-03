@@ -33,6 +33,20 @@ functional
 -
 
 /home/learn/proj/mymuduo/Buffer.cc
+Buffer.h
+/home/learn/proj/mymuduo/Buffer.h
+errno.h
+-
+sys/uio.h
+-
+
+/home/learn/proj/mymuduo/Buffer.h
+vector
+-
+string
+-
+algorithm
+-
 
 /home/learn/proj/mymuduo/Callbacks.h
 memory

@@ -20,7 +20,7 @@ public:
     size_t readableBytes() const
     { return writerIndex_ - readerIndex_;}
 
-    size_t wrirableBytes() const
+    size_t writableBytes() const
     { return buffer_.size() - writerIndex_;}
 
     size_t prependableBytes() const
@@ -68,7 +68,7 @@ public:
     // 可写的长度: buffer_.size - writerIndex_
     void ensureWritableBytes(size_t len)
     {
-        if (wrirableBytes() < len)
+        if (writableBytes() < len)
         {
             makeSpace(len);
         }
@@ -104,7 +104,7 @@ private:
          * kCheapPrepend |          len        |
          *                 |prependableBytes(可能不止8字节)
          */
-        if (wrirableBytes() + prependableBytes() < len + kCheapPrepend)
+        if (writableBytes() + prependableBytes() < len + kCheapPrepend)
         {
             buffer_.resize(writerIndex_ + len);
         }

@@ -12,6 +12,7 @@ CMakeFiles/mymuduo.dir/Acceptor.o
  /home/learn/proj/mymuduo/noncopyable.h
 CMakeFiles/mymuduo.dir/Buffer.o
  /home/learn/proj/mymuduo/Buffer.cc
+ /home/learn/proj/mymuduo/Buffer.h
 CMakeFiles/mymuduo.dir/Channel.o
  /home/learn/proj/mymuduo/Channel.cc
  /home/learn/proj/mymuduo/Channel.h
