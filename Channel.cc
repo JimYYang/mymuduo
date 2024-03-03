@@ -24,6 +24,7 @@ Channel::~Channel()
 }
 
 // channel的tie方法什么时候调用过
+// TcpConnection新连接创新的时候调用 TcpConnection => channel
 void Channel::tie(const std::shared_ptr<void> &obj)
 {
     tie_ = obj;

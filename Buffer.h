@@ -84,6 +84,9 @@ public:
 
     // 从fd中读取数据
     ssize_t readFd(int fd, int *savedErrno);
+
+    // 通过fd发送数据
+    ssize_t writeFd(int fd, int *savedErrno);
 private:
     char* begin()
     { return &*buffer_.begin();} // vector底层数组首元素的地址 也就是数组的起始地址
