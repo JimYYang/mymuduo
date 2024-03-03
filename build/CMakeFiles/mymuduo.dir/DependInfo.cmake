@@ -5,8 +5,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/learn/proj/mymuduo/Acceptor.cc" "/home/learn/proj/mymuduo/build/CMakeFiles/mymuduo.dir/Acceptor.o"
-  "/home/learn/proj/mymuduo/CUrrentThread.cc" "/home/learn/proj/mymuduo/build/CMakeFiles/mymuduo.dir/CUrrentThread.o"
+  "/home/learn/proj/mymuduo/Buffer.cc" "/home/learn/proj/mymuduo/build/CMakeFiles/mymuduo.dir/Buffer.o"
   "/home/learn/proj/mymuduo/Channel.cc" "/home/learn/proj/mymuduo/build/CMakeFiles/mymuduo.dir/Channel.o"
+  "/home/learn/proj/mymuduo/CurrentThread.cc" "/home/learn/proj/mymuduo/build/CMakeFiles/mymuduo.dir/CurrentThread.o"
   "/home/learn/proj/mymuduo/DefaultPoller.cc" "/home/learn/proj/mymuduo/build/CMakeFiles/mymuduo.dir/DefaultPoller.o"
   "/home/learn/proj/mymuduo/EPollPoller.cc" "/home/learn/proj/mymuduo/build/CMakeFiles/mymuduo.dir/EPollPoller.o"
   "/home/learn/proj/mymuduo/EventLoop.cc" "/home/learn/proj/mymuduo/build/CMakeFiles/mymuduo.dir/EventLoop.o"
@@ -16,6 +17,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/learn/proj/mymuduo/Logger.cc" "/home/learn/proj/mymuduo/build/CMakeFiles/mymuduo.dir/Logger.o"
   "/home/learn/proj/mymuduo/Poller.cc" "/home/learn/proj/mymuduo/build/CMakeFiles/mymuduo.dir/Poller.o"
   "/home/learn/proj/mymuduo/Socket.cc" "/home/learn/proj/mymuduo/build/CMakeFiles/mymuduo.dir/Socket.o"
+  "/home/learn/proj/mymuduo/TcpConnection.cc" "/home/learn/proj/mymuduo/build/CMakeFiles/mymuduo.dir/TcpConnection.o"
   "/home/learn/proj/mymuduo/TcpServer.cc" "/home/learn/proj/mymuduo/build/CMakeFiles/mymuduo.dir/TcpServer.o"
   "/home/learn/proj/mymuduo/Thread.cc" "/home/learn/proj/mymuduo/build/CMakeFiles/mymuduo.dir/Thread.o"
   "/home/learn/proj/mymuduo/Timestamp.cc" "/home/learn/proj/mymuduo/build/CMakeFiles/mymuduo.dir/Timestamp.o"

@@ -6,13 +6,18 @@
 },
 {
   "directory": "/home/learn/proj/mymuduo/build",
-  "command": "/usr/bin/g++  -Dmymuduo_EXPORTS   -g -std=c++11 -g -fPIC   -o CMakeFiles/mymuduo.dir/CUrrentThread.o -c /home/learn/proj/mymuduo/CUrrentThread.cc",
-  "file": "/home/learn/proj/mymuduo/CUrrentThread.cc"
+  "command": "/usr/bin/g++  -Dmymuduo_EXPORTS   -g -std=c++11 -g -fPIC   -o CMakeFiles/mymuduo.dir/Buffer.o -c /home/learn/proj/mymuduo/Buffer.cc",
+  "file": "/home/learn/proj/mymuduo/Buffer.cc"
 },
 {
   "directory": "/home/learn/proj/mymuduo/build",
   "command": "/usr/bin/g++  -Dmymuduo_EXPORTS   -g -std=c++11 -g -fPIC   -o CMakeFiles/mymuduo.dir/Channel.o -c /home/learn/proj/mymuduo/Channel.cc",
   "file": "/home/learn/proj/mymuduo/Channel.cc"
+},
+{
+  "directory": "/home/learn/proj/mymuduo/build",
+  "command": "/usr/bin/g++  -Dmymuduo_EXPORTS   -g -std=c++11 -g -fPIC   -o CMakeFiles/mymuduo.dir/CurrentThread.o -c /home/learn/proj/mymuduo/CurrentThread.cc",
+  "file": "/home/learn/proj/mymuduo/CurrentThread.cc"
 },
 {
   "directory": "/home/learn/proj/mymuduo/build",
@@ -58,6 +63,11 @@
   "directory": "/home/learn/proj/mymuduo/build",
   "command": "/usr/bin/g++  -Dmymuduo_EXPORTS   -g -std=c++11 -g -fPIC   -o CMakeFiles/mymuduo.dir/Socket.o -c /home/learn/proj/mymuduo/Socket.cc",
   "file": "/home/learn/proj/mymuduo/Socket.cc"
+},
+{
+  "directory": "/home/learn/proj/mymuduo/build",
+  "command": "/usr/bin/g++  -Dmymuduo_EXPORTS   -g -std=c++11 -g -fPIC   -o CMakeFiles/mymuduo.dir/TcpConnection.o -c /home/learn/proj/mymuduo/TcpConnection.cc",
+  "file": "/home/learn/proj/mymuduo/TcpConnection.cc"
 },
 {
   "directory": "/home/learn/proj/mymuduo/build",
