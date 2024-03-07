@@ -60,7 +60,7 @@ private:
 int main()
 {
     EventLoop loop;
-    InetAddress addr(8001);
+    InetAddress addr(8000);
     // Acceptor non-blocking listenfd create bind
     EchoServer server(&loop, addr, "EchoServer-01");
     // listen loopthread listenfd => acceptorChannel => mainLoop(主要就是接受新连接)
