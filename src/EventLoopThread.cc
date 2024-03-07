@@ -29,7 +29,7 @@ EventLoop *EventLoopThread::startLoop()
     EventLoop *loop = nullptr;
     {
         std::unique_lock<std::mutex> lock(mutex_);
-        while (loop_ = nullptr)
+        while (loop_ == nullptr) // gdb定位到这里 发现写成了赋值函数
         {
             cond_.wait(lock);
         }
