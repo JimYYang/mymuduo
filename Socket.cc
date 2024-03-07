@@ -7,6 +7,7 @@
 #include <sys/socket.h>
 #include <cstring>
 #include <netinet/tcp.h>
+#include <cerrno>
 
 
 Socket::~Socket()
@@ -16,9 +17,9 @@ Socket::~Socket()
 
 void Socket::bindAddress(const InetAddress &localaddr)
 {
-    if (::bind(sockfd_, (sockaddr*)localaddr.getSockAddr(), sizeof(sockaddr_in)) != 0)
+    if (0 != ::bind(sockfd_, (sockaddr*)localaddr.getSockAddr(), sizeof(sockaddr_in)))
     {
-        LOG_FATAL("bind sockfd:%d fail \n", sockfd_);
+        LOG_FATAL("bind sockfd:%d fail \n, %d", sockfd_, errno);
     }
 }
 
@@ -32,11 +33,17 @@ void Socket::listen()
 
 int Socket::accept(InetAddress *peeraddr)
 {
+    /**
+     *  1. accept函数的参数不合法
+     *  2. 对返回的connfd没有设置非阻塞
+     * Reactor模型 one loop per thread
+     * 每个loop中： poller + non-blocking IO
+    */
     sockaddr_in addr;
-    socklen_t len;
+    socklen_t len = sizeof addr;
     bzero(&addr, sizeof addr);
-    int connfd = ::accept(sockfd_, (sockaddr*)&addr, &len);
-    if (connfd > 0)
+    int connfd = ::accept4(sockfd_, (sockaddr*)&addr, &len, SOCK_NONBLOCK | SOCK_CLOEXEC);
+    if (connfd >= 0)
     {
         peeraddr->setSockAddr(addr);
     }
@@ -56,26 +63,26 @@ void Socket::setTcpNoDelay(bool on)
 {
     int optval = on ? 1 : 0;
     ::setsockopt(sockfd_, IPPROTO_TCP, TCP_NODELAY,
-                &optval, static_cast<socklen_t>(sizeof optval));
+                &optval, sizeof optval);
 }
 
 void Socket::setReuseAddr(bool on)
 {
     int optval = on ? 1 : 0;
     ::setsockopt(sockfd_, SOL_SOCKET, SO_REUSEADDR,
-                &optval, static_cast<socklen_t>(sizeof optval));
+                &optval, sizeof optval);
 }
 
 void Socket::setReusePort(bool on)
 {
     int optval = on ? 1 : 0;
     ::setsockopt(sockfd_, SOL_SOCKET, SO_REUSEPORT,
-                &optval, static_cast<socklen_t>(sizeof optval));
+                &optval, sizeof optval);
 }
 
 void Socket::setKeepAlive(bool on)
 {
     int optval = on ? 1 : 0;
     ::setsockopt(sockfd_, SOL_SOCKET, SO_KEEPALIVE,
-                &optval, static_cast<socklen_t>(sizeof optval));
+                &optval, sizeof optval);
 }
