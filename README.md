@@ -46,3 +46,13 @@
 `Acceptor EventLoopThreadPool`
 `ConnectionMap connections_`
 
+### 项目编译
+- 自动编译：`./autobuild.sh`
+- 手动编译:
+```
+mkdir -p build
+cd build
+cmake ..
+make
+sudo make install
+```
