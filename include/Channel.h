@@ -11,7 +11,6 @@ class EventLoop;
 class Timestamp;
 
 /*
- * muduo支持epoll和poll 该项目只支持epoll
  * EventLoop Channel Poller在Reactor模型上对应Demultiplex
  * one loop per thread 一个loop 一个poller 一个poller可以监听很多channel
  * 所以一个channel属于一个loop 一个loop有多个channel

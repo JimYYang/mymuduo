@@ -3,7 +3,7 @@
 ![Alt text](./images/reactor.png)
 
 ### 网络库的Multiple Reactors模型如下:
-![Alt text](./images/muduo.png)
+![Alt text](./images/server.png)
 
 #### 网络库采用的是LT模式
 - 不会丢失数据或者消息
