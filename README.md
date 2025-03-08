@@ -2,10 +2,10 @@
 ### Reactor模型
 ![Alt text](./images/reactor.png)
 
-### muduo库的Multiple Reactors模型如下:
+### 网络库的Multiple Reactors模型如下:
 ![Alt text](./images/muduo.png)
 
-#### muduo采用的是LT模式
+#### 网络库采用的是LT模式
 - 不会丢失数据或者消息
     应用没有读取完数据，内核是会不断上报的
 - 低延迟处理
@@ -13,7 +13,7 @@
 - 跨平台处理
     像`select`一样可以跨平台使用
 
-### muduo网络库的核心代码模块
+### 网络库网络库的核心代码模块
 
 #### Channel
 `fd、events、revents、callbacks`
